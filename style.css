@@ -1,0 +1,26 @@
+#titre {
+    color: chartreuse;
+}
+
+h1 {
+    color: red;
+}
+
+h1 {
+    color: blue !important;
+}
+
+#paragraphe::first-line {
+    color: blue;
+}
+
+div {
+    background-color: red;
+    color: yellow;
+}
+
+a[title] {
+    background-color: chartreuse;
+    border: 1px solid chartreuse;
+    padding: 10px;
+}
