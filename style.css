@@ -1,26 +1,97 @@
-#titre {
-    color: chartreuse;
+/* couleur de texte */
+.c1
+{
+    color: blue;  /* couleur direct en anglais */
+}
+.c2
+{
+    color: #d51919; /* couleur en hexadécimal */
+}
+.c3
+{
+    color: rgb(125, 125, 150);
+}
+.c4
+{
+    color: rgba(125,125,150,0.3);
 }
 
-h1 {
-    color: red;
+/* taille du texte */
+.t1
+{
+   font-size: 25px;
+}
+.t2
+{
+   font-size: 55%;
+}
+.t3
+{
+   font-size: 2.5em;
+}
+.t4
+{
+   font-size: x-large;
 }
 
-h1 {
-    color: blue !important;
+/* la mise en gras */
+.g1{
+    font-weight: bold;
+}
+.g2{
+    font-weight: bolder;
 }
 
-#paragraphe::first-line {
-    color: blue;
+/* la mise en italique */
+.i1{
+    font-style: italic;
+}
+.i2{
+    font-style: oblique;
 }
 
-div {
-    background-color: red;
-    color: yellow;
+/* la police d'écriture */
+.p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p2{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-a[title] {
-    background-color: chartreuse;
-    border: 1px solid chartreuse;
-    padding: 10px;
+/* Les bordures */
+.b1{
+    border: 1px solid black;
+}
+.b2{
+    border: 1px dashed black;
+}
+.b3{
+    border: 3px dashed black;
+}
+.b4{
+    border: 3px dotted blue;
+}
+.b5{
+    border-left: 3px dotted blue;
+    border-top: 3px dotted blue;
+}
+.b6{
+    border-right: 3px solid blue;
+    border-bottom: 3px solid blue;
+}
+
+/* une image */
+img{
+    width: 30%;
+    height: auto;
+    opacity: 0.5;
+    border: 3px dashed blue;
+    border-radius: 25px;
+}
+
+/* avoir une image ronde */
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 }
