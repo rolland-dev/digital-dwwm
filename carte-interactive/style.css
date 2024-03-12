@@ -1,0 +1,42 @@
+.map {
+    overflow: hidden;
+}
+
+.maps_img {
+    width: 50%;
+    float: left;
+}
+
+.maps_img path {
+    fill: cadetblue;
+    stroke: white;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+.maps_img path.is-active {
+    fill: rgb(165, 116, 200);
+}
+
+.maps_list a {
+    color: inherit;
+    text-decoration: none;
+    transition: : color 0.3s;
+}
+
+.maps_list a.is-active {
+    color: rgb(165, 116, 200);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.maps_img_ges {
+    fill: rgb(165, 116, 200);
+    stroke: rgb(123, 176, 98);
+    stroke-width: 1px;
+    z-index: -1 !important;
+}
+
+.maps_img_ges text {
+    z-index: 8;
+}
